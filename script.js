@@ -24,15 +24,15 @@ function ai(message)
 	if(username.length < 2)
 	{
 		username = message;
-		send_message("Nice To Meet you " + username + ", How are You doing?");
+		send_message("Nice to meet you " + username + ", How are You doing?");
 	}
 	else if(message.indexOf("how are you")>=0)
 	{
 		send_message("Thanks I am Good!");
 	}
-	else if((message.indexOf("hii")>=0))
+	else if((message.indexOf("Hii")>=0))
 	{
-		send_message("Hii,How can I Help you??");
+		send_message("Hii!!,How can I Help you??");
 	}
 	else if((message.indexOf("time")>=0))
 	{
@@ -61,12 +61,12 @@ function ai(message)
 		/*document.write(curr_date + "-" + m_names[curr_month] 
 		+ "-" + curr_year);*/
 	}
-	else if((message.indexOf("ok thanks")>=0) || (message.indexOf("cancel")>=0))
+	else if((message.indexOf("Ok Thanks")>=0) || (message.indexOf("Cancel")>=0))
 	{
-		send_message("Sure,I will catch up soon!!");
+		send_message("Are you sure!!!,I will catch up soon!!!");
 	}
 	else{
-		send_message("Thank you bye !");	
+		send_message("Thank you!! bye !");	
 	}
 }
 
