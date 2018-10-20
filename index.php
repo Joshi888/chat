@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chat</title>
+	<title>Chat WebApp</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
