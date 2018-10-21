@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chat</title>
+	<title>Chat WebApp</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
 </head>
 <body>
 	<div id="header">
-		<h1>Chatbox</h1>
+		<h1>Welcome To Chatbox</h1>
 	</div>
 	<div id="container">
 	</div>
 	<div id="controlls">
-		<textarea id="textbox" placeholder="Enter Your Message"></textarea>&nbsp;
+		<textarea id="textbox" placeholder="Plese Enter your  Message"></textarea> &nbsp;
 		<button id="send">Send</button>
-		<br>
+		<br><br>
 		<input checked type="checkbox" id="enter">
-		<label>Send On Enter</label>
+		<label>Enter To Send </label>
 	</div>
 <script src="ajax.js"></script>
 <script type="text/javascript" src="script.js"></script>
